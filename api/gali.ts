@@ -4,3 +4,4 @@ const hindi: string[] = ["Ass","Asshole","Betichod","Bhadava","Bhadva","Bhadwa",
 let hindiGali: string[] = hindi.map(name => name.toLowerCase());
 let hindiG : string[] = ["रंडी","रांड","भोसड़े","लण्ड","औलाद","चुदाई","कूत्ते","कूतिया","बच्चकलप","मादरचोद","पिस्सू","सुअर","गांड","randu","lund","लौड़ा"];
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG];
+module.exports=galy;
