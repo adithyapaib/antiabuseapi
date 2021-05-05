@@ -1,0 +1,21 @@
+{
+  "name": "api.adithyapai.com",
+  "version": "1.0.0",
+  "description": "\"An api Api for Adithya Pai B\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "RESTAPI",
+    "SERVERLESS",
+    "GALI"
+  ],
+  "author": "Adithya pai B",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  }
+}
