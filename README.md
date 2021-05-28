@@ -54,9 +54,9 @@ If you would like to contribute more words to this API your are free to so insid
 - If the word is in a language that has a variable named with it then and text is the word that you want to insert.<br>
 ```const  hindi: string[]  = [ "text", .....];```<br><br>
 - If the word is in a language that  doesn't have a variable named with it then and text is the word that you want to insert.<br>
-```const  language_name: string[]  = [ "text", .....];```
-``` let  language_nameGali: string[]  =  language_name.map(name  =>  name.toLowerCase()) ```
-```const  gali: string[]  =  [...hindiGali, ...tuluGali, ...language_nameGali];```<br>
+```const  language_name: string[]  = [ "text", .....];
+   let  language_nameGali: string[]  =  language_name.map(name  =>  name.toLowerCase())
+   const  gali: string[]  =  [...hindiGali, ...tuluGali, ...language_nameGali];```<br>
 
  ## *Dont forget to star this repo and follow me!*
 
