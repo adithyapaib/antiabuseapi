@@ -26,7 +26,9 @@ If the string contains does not abuse words then the api will respond with JSON 
 <br>
 <br>
 <br>
+
 ## Deployment
+
 >````
 >sudo npm i -g vercel
 >git clone https://github.com/adithyapaib/antiabuseapi
