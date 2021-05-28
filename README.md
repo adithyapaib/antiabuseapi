@@ -51,7 +51,7 @@ If you would like to contribute more words to this API your are free to so insid
 <br>
 
 
-- If the word is in a language that has a variable named with it then and text is the word that you want to insert.
+- If the word is in a language that has a variable named with it then and text is the word that you want to insert.<br>
 ```const  hindi: string[]  = [ "text", .....];```
 <br>
 <br>
