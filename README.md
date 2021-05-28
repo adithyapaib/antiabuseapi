@@ -9,7 +9,9 @@ Send your query string to the end [https://antiabuse-api.vercel.app/api/](https:
 If the string contains abuse words then the api will respond with JSON ```true```
 
 If the string contains does not abuse words then the api will respond with JSON ```false```
-
+<br>
+<br>
+<br>
 
 
 ## Requirements
