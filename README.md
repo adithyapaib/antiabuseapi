@@ -36,6 +36,8 @@ If the string contains does not abuse words then the api will respond with JSON 
 >npm i
 >vercel dev
 >````
+<br>
+<br>
 
 ## Words contribution
 
@@ -43,7 +45,7 @@ If you would like to contribute more words to this API your are free to so insid
 *make  sure the words are in the array of strings format (follow the syntax).*
 <br>
 
-> Syntax
+Syntax
 *If the word is in a language that has a variable named with it then and text is the word that you want to insert*
 	 	```const  hindi: string[]  = [ "text", .....];```
 
