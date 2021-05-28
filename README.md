@@ -1,3 +1,4 @@
+
 # antiAbuseAPI
 
 **antiAbuseAPI** is a serverless rest api deployed on vercel that takes in words seperated by  '_' or spaces and returns either true or false if the words sent to the endpoint contains any cuss words.
@@ -45,21 +46,23 @@ If you would like to contribute more words to this API your are free to so insid
 *make  sure the words are in the array of strings format (follow the syntax).*
 <br>
 
->Syntax
-*If the word is in a language that has a variable named with it then and text is the word that you want to insert*
+>**Syntax**
+
 <br>
 
-```const  hindi: string[]  = [ "text", .....];```
 
- *If the word is in a language that  doesn't have a variable named with it then and text is the word that you want to insert*
+- If the word is in a language that has a variable named with it then and text is the word that you want to insert.
+```const  hindi: string[]  = [ "text", .....];```
+<br>
+<br>
+ - If the word is in a language that  doesn't have a variable named with it then and text is the word that you want to insert.
+ <br>
 	 	```const  language_name: string[]  = [ "text", .....];```
 	``` let  language_nameGali: string[]  =  language_name.map(name  =>  name.toLowerCase()) ```
       ```const  gali: string[]  =  [...hindiGali, ...tuluGali, ...language_nameGali];```
 	
 <br>
-<br>
-<br>
 
-## *Dont forget to star this repo and follow me!*
+ ## *Dont forget to star this repo and follow me!*
 
 
