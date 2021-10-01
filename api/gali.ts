@@ -26,3 +26,4 @@ const konkani: string[] = ['avayzovnya', 'zovnya', 'maayzovnya', 'chediyechya', 
 let konkaniGali: string[] = konkani.map(name => name.toLowerCase())
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali];
 module.exports = gali;
+const english1: string[]=["arrse", "arse", "ass", "ass-fucker","fuck off","asshole","motherfucker"];
