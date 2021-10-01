@@ -9,5 +9,6 @@ const melayu: string[] = ["celaka", "barua", "puki", "pukimak", "burit", "babi",
 let melayuGali: string[] = melayu.map(name => name.toLowerCase());
 const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad"]
 let marathiGali: string[] = marathi.map(name => name.toLowerCase());
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali];
+const hindiGaali: string[] = ['behenkelode','chutmarike','kutreya','lawdeya','randiputram','tattokesaudagar','burkeburade','lundkedhakkhan','lukke','gandfatikebhadwe','bsdiwale','gaaandmarale']
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali,...hindiGaali];
 module.exports = gali;
