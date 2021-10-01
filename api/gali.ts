@@ -24,3 +24,4 @@ const punjabi: string[] = ['Kutte da putt', 'Kanjar', 'Anna', 'Bencho', 'Fuddu']
 let punjabiGali: string[] = punjabi.map(name => name.toLowerCase())
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...punjabiGali];
 module.exports = gali;
+const i: string[] = [ "kutrya", "halkat", "besharam","bail","bhaitad","gand", "muji","raadi","randi","randi ko ban" ,"radikoban"];
