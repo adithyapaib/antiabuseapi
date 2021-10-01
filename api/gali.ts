@@ -18,9 +18,7 @@ const odia: string[] = ['maghia', 'banda', 'randi', 'chodipua', 'gandimara', 'be
 let odiaGali: string[] = odia.map(name => name.toLowerCase())
 const nepali: string[] = ["muji","raadi","randi","randi ko ban" ,"radikoban","bhalu","besya","chik","chiknu","puti","lado","randikochoro","randi ko choro","machikne","maachikne"]
 let nepaliGali: string[] = nepali.map(name => name.toLowerCase());
-const bihari: string[] = ["bahanchod","aar","baklol","bawaseer ho ka","bhadwa","bhethi","bhosda","bhoor","tor maiyaa ke chodu","larchat","laar","dogla","chinar","chota chetan"]
+const bihari: string[] = ["bahanchod","aar","baklol","bawaseer ho ka","bhadwa","bhethi","bhosda","bhoor","tor maiyaa ke chodu","larchat","laar","dogla","chinar","chota chetan","bahettar","bapchodi","chinaar","burchatta","burchodi"]
 let bihariGali: string[] = bihari.map(name => name.toLowerCase());
-const arabic: string[] = ["a7a","kosomok", "kos omak","al'ama","al ama","Tozz Feek","Kol Khara","Ya Ibn el Sharmouta","Ommak ","Kess","Chelb","Ibn al Kalb","Ya Gazma","Ya Khara","Gawad","Tah-hathek","Telhas Teeze","Abu Reiha","El’an Abook","El an Abook","Kess Ikhtak","Kess Ommak","Ayreh Feek","Telhas Teeze","Ya Sharmouta","Kol Khara"]
-let arabicGali: string[] = arabic.map(name => name.toLowerCase());
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...arabicGali];
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali];
 module.exports = gali;
