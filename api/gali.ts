@@ -18,7 +18,7 @@ const odia: string[] = ['maghia', 'banda', 'randi', 'chodipua', 'gandimara', 'be
 let odiaGali: string[] = odia.map(name => name.toLowerCase())
 const nepali: string[] = ["muji","raadi","randi","randi ko ban" ,"radikoban","bhalu","besya","chik","chiknu","puti","lado","randikochoro","randi ko choro","machikne","maachikne"]
 let nepaliGali: string[] = nepali.map(name => name.toLowerCase());
-const bihari: string[] = ["bahanchod","aar","baklol","bawaseer ho ka","bhadwa","bhethi","bhosda","bhoor","tor maiyaa ke chodu","larchat","laar","dogla","chinar","chota chetan"]
+const bihari: string[] = ["bahanchod","aar","baklol","bawaseer ho ka","bhadwa","bhethi","bhosda","bhoor","tor maiyaa ke chodu","larchat","laar","dogla","chinar","chota chetan","laura doga"]
 let bihariGali: string[] = bihari.map(name => name.toLowerCase());
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali];
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali, ..bihariGali];
 module.exports = gali;
