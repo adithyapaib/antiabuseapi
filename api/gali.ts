@@ -24,5 +24,7 @@ let urdu: string[] = ["phaphole","khabees","khushmarani ke","kocha","nasoor","aa
 const urduGali:string[] = urdu.map(name => name.toLowerCase());
 const konkani: string[] = ['avayzovnya', 'zovnya', 'maayzovnya', 'chediyechya', 'fokya', 'fodya', 'fodrechya'];
 let konkaniGali: string[] = konkani.map(name => name.toLowerCase())
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali];
-module.exports = gali;
+const indo: string[] = ["goblok","bangsat","kontol","anjing","tai","sial","bego","sialan"];
+let indoGali: string[] = indo.map(name => name.toLowerCase());
+const gali: string[] = [...indoGali, ...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali];
+module.exports = gali
