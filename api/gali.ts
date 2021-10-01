@@ -7,7 +7,7 @@ const english: string[] = ["4r5e", "5h1t", "5hit", "a55", "anal", "anus", "ar5e"
 let englishGali: string[] = english.map(name => name.toLowerCase());
 const melayu: string[] = ["celaka", "barua", "puki", "pukimak", "burit", "babi", "keparat", "sial", "pantat", "kote", "haram", "pepet", "tetek", "kopek", "pungkok", "pepek", "juboq", "jubur"];
 let melayuGali: string[] = melayu.map(name => name.toLowerCase());
-const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad"]
+const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad","lavdya","aaighalya","akkalmashya","yadzava"]
 let marathiGali: string[] = marathi.map(name => name.toLowerCase());
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali];
 module.exports = gali;
