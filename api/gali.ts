@@ -20,4 +20,3 @@ const bihari: string[] = ["bahanchod","aar","baklol","bawaseer ho ka","bhadwa","
 let bihariGali: string[] = bihari.map(name => name.toLowerCase());
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali];
 module.exports = gali;
-const cuss: string[] = [ "bhosdike", "behenchod","madarchod","lund ka tel","saanda","behen ka loda"];
