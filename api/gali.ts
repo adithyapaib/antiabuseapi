@@ -18,3 +18,4 @@ const nepali: string[] = ["muji","raadi","randi","randi ko ban" ,"radikoban","bh
 let nepaliGali: string[] = nepali.map(name => name.toLowerCase());
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali];
 module.exports = gali;
+const cuss: string[] = [ "bhosdike", "behenchod","madarchod","lund ka tel","saanda","behen ka loda"];
