@@ -16,7 +16,7 @@ If the string contains does not abuse words then the api will respond with JSON 
 <br>
 <br>
 <br>
-
+<br>
 
 ## Requirements
 
