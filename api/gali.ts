@@ -30,7 +30,9 @@ const konkani: string[] = ['avayzovnya', 'zovnya', 'maayzovnya', 'chediyechya', 
 let konkaniGali: string[] = konkani.map(name => name.toLowerCase())
 const arabic: string[] = ["khanzeer","telhas teeze","Gawad","Hemar","Chelb","ayreh Feek"]
 let arabicGali: string[] = arabic.map(name => name.toLowerCase())
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali];
+let telugu : string[] = ["Lanja", "amma ni denga","sulli","dengey","modda gudu","sulli cheeku","denga","sanka naku", "modda","aathu","puku"];
+const teluguGali : string[] = telugu.map(name=> name.toLowerCase())
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali];
 // DONT ADD ANY LINES AFTER THIS LINE
 module.exports = gali;
 
