@@ -9,9 +9,9 @@ const english: string[] = ["fucker","smd","4r5e","birthofloosedick","dirtofdickh
 let englishGali: string[] = english.map(name => name.toLowerCase());
 const melayu: string[] = ["celaka", "barua", "puki", "pukimak", "burit", "babi", "keparat", "sial", "pantat", "kote", "haram", "pepet", "tetek", "kopek", "pungkok", "pepek", "juboq", "jubur"];
 let melayuGali: string[] = melayu.map(name => name.toLowerCase());
-const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad","gand", "bulleya", "puchhi", "bhikArachoT", "bhok", "ghal", "Bhosdicha", "lavdeya", "Aandya", "chinal"]
+const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad","gand", "bulleya", "puchhi", "bhikArachoT", "bhok", "ghal", "Bhosdicha", "lavdeya", "Aandya", "chinal","yedzava","aaichigand"];
 let marathiGali: string[] = marathi.map(name => name.toLowerCase());
-const hindiGaali: string[] = ['behenkelode','macharkijhant','chutmarike','kutreya','lawdeya','randiputram','tattokesaudagar','burkeburade','lundkedhakkhan','lukke','gandfatikebhadwe','bsdiwale','gaaandmarale','lundekekesh','jaahtu',"chudakkad","chutkechatore","totichor","teribehenkabhosda"]
+const hindiGaali: string[] = ['behenkelode','macharkijhant','chutmarike','kutreya','lawdeya','randiputram','tattokesaudagar','burkeburade','lundkedhakkhan','lukke','gandfatikebhadwe','bsdiwale','gaaandmarale','lundekekesh','jaahtu',"chudakkad","chutkechatore","totichor","teribehenkabhosda","lodiye","maa ki kirikiri teri","randichod","bhen ke laude","bhen ke takke","chinaal","gaandfatike","gundak","jhaatu","chut ke dhakan"]
 const bengali: string[] = ["madarchod", "chudi", "bokachoda", "khankirchele", "khanki", "gudmarani", "podmarani", "rendirchele", "bichirbal", "banchod", "bnchod", "magi", "kuttachoda", "hatichoda", "dianorsorchoda", "teponmagi", "rendimagi", "paglachoda", "bal", "besshamagi", "homochoda", "bara", "garmarani", "satavhanga", "vhangavhagi", "kalanichoda", "chutmarani", "barachoda", "garpaka", "khankimargir gud", "chodonmagi", "chodon64", "chudir vhai", "bal" , "barar bal" , "bara"]
 let bengaliGali: string[] = bengali.map(name => name.toLowerCase());
 const odia: string[] = ['maghia', 'banda', 'randi', 'chodipua', 'gandimara', 'bedhachua', 'bedha','kanachoda'];
@@ -23,8 +23,7 @@ let bihariGali: string[] = bihari.map(name => name.toLowerCase());
 let urdu: string[] = ["phaphole","khabees","khushmarani ke","kocha","nasoor","aamas","tashreef lal kar dunga","badbakht","mardood","kamina"];
 const urduGali:string[] = urdu.map(name => name.toLowerCase());
 let punjabiG: string[]=["BooDaBoja","DhaunNappDeyangeTuhaddi","OndaPhudduLaggeAi","teri maa di pudi","teri pan di lun","bhen di lun","teri maa da fudda","pen de laude","teri bund maar deni"];
-const punjabGali:string[] = punjabiG.map(name => name.toLowerCase());
-const hindi : string[]=["lodiye","maa ki kirikiri teri","randichod","bhen ke laude","bhen ke takke","chinaal","gaandfatike","gundak","jhaatu","chut ke dhakan"];
+const punjabiGali:string[] = punjabiG.map(name => name.toLowerCase());
 const konkani: string[] = ['avayzovnya', 'zovnya', 'maayzovnya', 'chediyechya', 'fokya', 'fodya', 'fodrechya', 'raandechya', 'zovkya'];
 let konkaniGali: string[] = konkani.map(name => name.toLowerCase())
 const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali];
