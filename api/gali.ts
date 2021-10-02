@@ -11,7 +11,7 @@ const melayu: string[] = ["celaka", "barua", "puki", "pukimak", "burit", "babi",
 let melayuGali: string[] = melayu.map(name => name.toLowerCase());
 const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad","gand", "bulleya", "puchhi", "bhikArachoT", "bhok", "ghal", "Bhosdicha", "lavdeya", "Aandya", "chinal"]
 let marathiGali: string[] = marathi.map(name => name.toLowerCase());
-const hindiGaali: string[] = ['behenkelode','chutmarike','kutreya','lawdeya','randiputram','tattokesaudagar','burkeburade','lundkedhakkhan','lukke','gandfatikebhadwe','bsdiwale','gaaandmarale','lundekekesh','jaahtu']
+const hindiGaali: string[] = ['behenkelode','macharkijhant','chutmarike','kutreya','lawdeya','randiputram','tattokesaudagar','burkeburade','lundkedhakkhan','lukke','gandfatikebhadwe','bsdiwale','gaaandmarale','lundekekesh','jaahtu']
 const bengali: string[] = ["madarchod", "chudi", "bokachoda", "khankirchele", "khanki", "gudmarani", "podmarani", "rendirchele", "bichirbal", "banchod", "bnchod", "magi", "kuttachoda", "hatichoda", "dianorsorchoda", "teponmagi", "rendimagi", "paglachoda", "bal", "besshamagi", "homochoda", "bara", "garmarani", "satavhanga", "vhangavhagi", "kalanichoda", "chutmarani", "barachoda", "garpaka", "khankimargir gud", "chodonmagi", "chodon64", "chudir vhai", "bal" , "barar bal" , "bara"]
 let bengaliGali: string[] = bengali.map(name => name.toLowerCase());
 const odia: string[] = ['maghia', 'banda', 'randi', 'chodipua', 'gandimara', 'bedhachua', 'bedha'];
