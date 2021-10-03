@@ -16,6 +16,8 @@ const bengali: string[] = ["madarchod", "chudi", "bokachoda", "khankirchele", "k
 let bengaliGali: string[] = bengali.map(name => name.toLowerCase());
 const odia: string[] = ['maghia', 'banda', 'randi', 'chodipua', 'gandimara', 'bedhachua', 'bedha','kanachoda'];
 let odiaGali: string[] = odia.map(name => name.toLowerCase())
+const marathii: string[] = ["haramkhor","nalayak","madrchod","chutiya","bhosadichya"]
+let marathiiGali: string[] = marathii.map(name => name.toLowerCase());
 const nepali: string[] = ["Chikxu","hariyo puti","kando","chak","sala","rando","poka","machikni","muji","raadi","randi","randi ko ban" ,"radikoban","bhalu","besya","chik","chiknu","puti","lado","randikochoro","randi ko choro","machikne","maachikne"]
 let nepaliGali: string[] = nepali.map(name => name.toLowerCase());
 const bihari: string[] = ["bahanchod","aar","baklol","bawaseer ho ka","bhadwa","bhethi","bhosda","bhoor","tor maiyaa ke chodu","larchat","laar","dogla","chinar","chota chetan","bahettar","bapchodi","chinaar","burchatta","burchodi","tohar bahini kr bur","bin pendi ke lota","maiya jake gaand maraaye","tohr matari randi"]
