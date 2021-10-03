@@ -9,6 +9,8 @@ const english: string[] = ["fucker","smd","4r5e","birthofloosedick","dirtofdickh
 let englishGali: string[] = english.map(name => name.toLowerCase());
 const melayu: string[] = ["celaka", "barua", "puki", "pukimak", "burit", "babi", "keparat", "sial", "pantat", "kote", "haram", "pepet", "tetek", "kopek", "pungkok", "pepek", "juboq", "jubur"];
 let melayuGali: string[] = melayu.map(name => name.toLowerCase());
+const gujarati: string[] = ['Bharwo','Tarimanobosro','Randino','Gando'];
+let gujaratiGali: string[] = tamil.map(name => name.toLowerCase())
 const marathi: string[] = ["kutrya", "halkat", "besharam","bail","bhaitad","gand", "bulleya", "puchhi", "bhikArachoT", "bhok", "ghal", "Bhosdicha", "lavdeya", "Aandya", "chinal","yedzava","aaichigand"];
 let marathiGali: string[] = marathi.map(name => name.toLowerCase());
 const hindiGaali: string[] = ['behenkelode','macharkijhant','chutmarike','kutreya','lawdeya','randiputram','tattokesaudagar','burkeburade','lundkedhakkhan','lukke','gandfatikebhadwe','bsdiwale','gaaandmarale','lundekekesh','jaahtu',"chudakkad","chutkechatore","totichor","teribehenkabhosda","lodiye","maa ki kirikiri teri","randichod","bhen ke laude","bhen ke takke","chinaal","gaandfatike","gundak","jhaatu","chut ke dhakan"]
