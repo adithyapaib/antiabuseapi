@@ -26,7 +26,7 @@ const bangla: string[] = ["suorer baccha", "bessa" , "baalchoda" , "saapchoda" ,
 const banglaGali : string[] = bangla.map(name => name.toLowerCase());
 let punjabiG: string[]=["BooDaBoja","DhaunNappDeyangeTuhaddi","OndaPhudduLaggeAi","teri maa di pudi","teri pan di lun","bhen di lun","teri maa da fudda","pen de laude","teri bund maar deni"];
 const punjabiGali:string[] = punjabiG.map(name => name.toLowerCase());
-const konkani: string[] = ['avayzovnya', 'zovnya', 'maayzovnya', 'chediyechya', 'fokya', 'fodya', 'fodrechya', 'raandechya', 'zovkya'];
+const konkani: string[] = ['peto','petya','sune','kangello','bodkicha puta','avayzovnya', 'zovnya', 'maayzovnya', 'chediyechya', 'fokya', 'fodya', 'fodrechya', 'raandechya', 'zovkya'];
 let konkaniGali: string[] = konkani.map(name => name.toLowerCase())
 const arabic: string[] = ["khanzeer","telhas teeze","Gawad","Hemar","Chelb","ayreh Feek"]
 let arabicGali: string[] = arabic.map(name => name.toLowerCase())
@@ -36,12 +36,11 @@ let bohotgandiwali : string[] = ["andi mandi sandi .... ", "labda ka sarkar","dh
 const bohotgandiwaliGali : string[] = bohotgandiwali.map(name=> name.toLowerCase())
 let assamese : string[] = ["kela", "kukurpuali","maksudu","lewra","boinaksuda","sutmarni","kukur","mokkel","baal","sutiya","pukor"];
 const assameseGali : string[] = assamese.map(name=> name.toLowerCase())
-
-
-let kannada : string[] = ["bolimaga", "hadabe","soolemaga","kiriksulemaga","hadbitti","hadsike"];
-const kannadaGali : string[] = kannada.map(name=> name.toLowerCase())
-
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali, ...assameseGali, ...kannadaGali];
+const kannadaGali : string[] = ["loude","nin_appan_hada","sule_magane","boli_magane","shata_hari"]
+let kannada : string[] = kannadaGali.map(name=>name.toLowerCase())
+const japaneseGali : string[] = ["baka", "kusoyaro", "unkoyaro", " unchi", "bakayaro", "kemochiwarui" ,"kimoi"];
+let japanese : string[] = japaneseGali.map(name=>name.toLowerCase())
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali, ...assameseGali, ...kannadaGali, ...japaneseGali];
 // DONT ADD ANY LINES AFTER THIS LINE
 module.exports = gali;
 
