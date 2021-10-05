@@ -1,4 +1,4 @@
-const tulu: string[] = ['bvc', 'bywarsi', 'randay', 'runday', 'sulle', 'boli', 'rande', 'naidamaga', 'naidamone', 'darvesi','bhosdike'];
+const tulu: string[] = ['bvc', 'bywarsi', 'randay', 'runday', 'sulle', 'boli', 'rande', 'naidamaga', 'naidamone', 'darvesi','bhosdike','moojikaasdaye','kunne','ajji sunti','punk','ajji kunne','pottel','appu shetty na pottel','potyer nik'];
 let tuluGali: string[] = tulu.map(name => name.toLowerCase())
 const tamil: string[] = ['thevdiya','siruki','kepmari','punda','kabodhi','molathai','munda','vakalwoyi','oombu','kenapunda','thayoli','madapunda'];
 let tamilGali: string[] = tamil.map(name => name.toLowerCase())
@@ -36,9 +36,11 @@ let bohotgandiwali : string[] = ["andi mandi sandi .... ", "labda ka sarkar","dh
 const bohotgandiwaliGali : string[] = bohotgandiwali.map(name=> name.toLowerCase())
 let assamese : string[] = ["kela", "kukurpuali","maksudu","lewra","boinaksuda","sutmarni","kukur","mokkel","baal","sutiya","pukor"];
 const assameseGali : string[] = assamese.map(name=> name.toLowerCase())
-const japaneseGali : string[] = ["baka", "unkoyaro", "kusoyaro"];
-let japanese : string[] = japaneseGali.map(name=> name.toLowerCase())
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali, ...assameseGali, ...japanese];
+const kannadaGali : string[] = ["loude","nin_appan_hada","sule_magane","boli_magane","shata_hari"]
+let kannada : string[] = kannadaGali.map(name=>name.toLowerCase())
+const japaneseGali : string[] = ["baka", "kusoyaro", "unkoyaro", " unchi", "bakayaro", "kemochiwarui" ,"kimoi"];
+let japanese : string[] = japaneseGali.map(name=>name.toLowerCase())
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali, ...assameseGali, ...kannadaGali, ...japaneseGali];
 // DONT ADD ANY LINES AFTER THIS LINE
 module.exports = gali;
 
