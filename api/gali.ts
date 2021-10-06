@@ -40,7 +40,9 @@ const kannadaGali : string[] = ["loude","nin_appan_hada","sule_magane","boli_mag
 let kannada : string[] = kannadaGali.map(name=>name.toLowerCase())
 const japaneseGali : string[] = ["baka", "kusoyaro", "unkoyaro", " unchi", "bakayaro", "kemochiwarui" ,"kimoi"];
 let japanese : string[] = japaneseGali.map(name=>name.toLowerCase())
-const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali, ...assameseGali, ...kannadaGali, ...japaneseGali];
+const indonesian: string[]  = ["kontol", "ngentot", "ngentod", "cok", "anjing", "babi", "memek", "jembut", "goblok", "tolol", "asu", "jancok", "dancok", "jancuk", "sundal", "sundala", "kampang", "damput", "heunceut", "kacuk", "hencet", "kanjut"]; 
+let indonesianGali: string[]  =  indonesian.map(name  =>  name.toLowerCase());
+const gali: string[] = [...hindiGali, ...tuluGali, ...hindiG, ...englishGali, ...melayuGali, ...marathiGali, ...hindiGaali, ...bengaliGali,...nepaliGali,...urduGali, ...konkaniGali, ...punjabiGali,...banglaGali, ...arabicGali, ... teluguGali, ...assameseGali, ...kannadaGali, ...japaneseGali, ...indonesianGali];
 // DONT ADD ANY LINES AFTER THIS LINE
 module.exports = gali;
 
