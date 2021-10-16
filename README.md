@@ -7,9 +7,8 @@
 
 Send your query string to the end [https://antiabuse-api.vercel.app/api/](https://antiabuse-api.vercel.app/api)
 
-If the string contains abuse words then the api will respond with JSON ```true```
-
-If the string contains does not abuse words then the api will respond with JSON ```false```
+- If the string contains abuse words then the api will respond with JSON ```true```
+- If the string contains does not abuse words then the api will respond with JSON ```false```
 
 
 ## Requirements
@@ -39,9 +38,9 @@ If you would like to contribute more words to this API your are free to so insid
 
 - If the word is in a language that has a variable named with it then and text is the word that you want to insert.<br>
 
-- If the word is in a language that has a variable named with it then and text is the word that you want to insert.<br>
-
 >```const  hindi: string[]  = [ "text", .....];```<br>
+
+- If you want to add a gali in a language that is not in the program, you can definitely do so as follows. 
 - If the word is in a language that  doesn't have a variable named with it then and text is the word that you want to insert.<br>
 
 >````
