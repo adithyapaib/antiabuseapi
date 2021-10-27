@@ -18,7 +18,7 @@ const odia: string[] = ['maghia', 'banda', 'randi', 'chodipua', 'gandimara', 'be
 let odiaGali: string[] = odia.map(name => name.toLowerCase())
 const nepali: string[] = ["Chikxu", "hariyo puti", "kando", "chak", "sala", "rando", "poka", "machikni", "muji", "raadi", "randi", "randi ko ban", "radikoban", "bhalu", "besya", "chik", "chiknu", "puti", "lado", "randikochoro", "randi ko choro", "machikne", "maachikne"]
 let nepaliGali: string[] = nepali.map(name => name.toLowerCase());
-const bihari: string[] = ["bahanchod", "aar", "baklol", "bawaseer ho ka", "bhadwa", "bhethi", "bhosda", "bhoor", "tor maiyaa ke chodu", "larchat", "laar", "dogla", "chinar", "chota chetan", "bahettar", "bapchodi", "chinaar", "burchatta", "burchodi", "tohar bahini kr bur", "bin pendi ke lota", "maiya jake gaand maraaye", "tohr matari randi"]
+const bihari: string[] = ["bahanchod", "aar", "baklol", "bawaseer ho ka", "burwa", "randwaa","bhadwa", "bhethi", "bhosda", "bhoor", "tor maiyaa ke chodu", "larchat", "laar", "dogla", "chinar", "chota chetan", "bahettar", "bapchodi", "chinaar", "burchatta", "burchodi", "tohar bahini kr bur", "bin pendi ke lota", "maiya jake gaand maraaye", "tohr matari randi"]
 let bihariGali: string[] = bihari.map(name => name.toLowerCase());
 let urdu: string[] = ["phaphole", "khabees", "khushmarani ke", "kocha", "nasoor", "aamas", "tashreef lal kar dunga", "badbakht", "mardood", "kamina"];
 const urduGali: string[] = urdu.map(name => name.toLowerCase());
