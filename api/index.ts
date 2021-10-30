@@ -1,3 +1,4 @@
+//typescript 
 "use strict";
 exports.__esModule = true;
 function hello(req, res) {
