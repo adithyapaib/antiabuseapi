@@ -4,7 +4,7 @@ export default function fetchUser(req, res) {
     let {id }= req.query;
     id=id.toLowerCase();
     id = id.split('_').join(' ');
-    const exists = !!id.split(' ').find(str => gali.includes(str))
+    const exists = id.split(' ').some(str => gali.includes(str))
     if(exists)
     res.json("true");
     else
