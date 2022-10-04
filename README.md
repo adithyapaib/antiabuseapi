@@ -1,14 +1,14 @@
 
 # antiAbuseAPI
 
-**antiAbuseAPI** is a serverless rest api deployed on vercel that takes in words seperated by  '_' or spaces and returns either true or false if the words sent to the endpoint contains any cuss words.
+**antiAbuseAPI** is a serverless REST API deployed on Vercel that takes in words seperated by  '_' or spaces and returns either true or false if the words sent to the endpoint contains any cuss words.
 
 # Usage
 
 Send your query string to the end [https://antiabuse-api.vercel.app/api/](https://antiabuse-api.vercel.app/api)
 
 - If the string contains abuse words then the api will respond with JSON ```true```
-- If the string contains does not abuse words then the api will respond with JSON ```false```
+- If the string does not contain an abusive word then the api will respond with JSON ```false```
 
 
 ## Requirements
