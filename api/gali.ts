@@ -1,4 +1,4 @@
-const tulu: string[] = ['bvc', 'bywarsi', 'randay', 'runday', 'sulle', 'boli', 'rande', 'naidamaga', 'naidamone', 'darvesi', 'bhosdike', 'moojikaasdaye', 'kunne', 'ajji sunti', 'punk', 'ajji kunne', 'pottel', 'appu shetty na pottel', 'potyer nik'];
+const tulu: string[] = ['bvc', 'bywarsi', 'randay', 'runday', 'sulle', 'boli', 'rande', 'naidamaga', 'naidamone', 'darvesi', 'bhosdike', 'moojikaasdaye', 'kunne', 'ajji sunti', 'punk', 'ajji kunne', 'pottel', 'appu shetty na pottel', 'potyer nik','pattinga','chatta'];
 let tuluGali: string[] = tulu.map(name => name.toLowerCase())
 const tamil: string[] = ['thevdiya', 'siruki', 'kepmari', 'punda', 'kabodhi', 'molathai', 'munda', 'vakalwoyi', 'oombu', 'kenapunda', 'thayoli', 'madapunda', 'muttaal', 'looosu'];
 let tamilGali: string[] = tamil.map(name => name.toLowerCase())
