@@ -1,7 +1,7 @@
 
 # antiAbuseAPI
 
-**antiAbuseAPI** is a serverless REST API deployed on Vercel that takes in words seperated by  '_' or spaces and returns either true or false if the words sent to the endpoint contains any cuss words.
+**antiAbuseAPI** is a serverless REST API deployed on Vercel that takes in words seperated by  '_' or spaces and returns either true or false if the words sent to the endpoint contains any cuss words in any language .
 
 # Usage
 
